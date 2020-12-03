@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jbreiten/CLionProjects/ft_printf/ft_printf.c
+stdio.h
+-
+stdlib.h
+-
+stdarg.h
+-
+mach_debug/ipc_info.h
+-
+unistd.h
+-
+libft/libft.h
+/Users/jbreiten/CLionProjects/ft_printf/libft/libft.h
+limits.h
+-
+
+/Users/jbreiten/CLionProjects/ft_printf/libft/libft.h
+unistd.h
+-
+stddef.h
+-
+stdlib.h
+-
+
